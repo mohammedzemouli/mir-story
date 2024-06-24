@@ -1,0 +1,30 @@
+<!-- views/index.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mir's Journey in the Lost City of Mathkor</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1>Mir's Journey in the Lost City of Mathkor</h1>
+      <div class="scene">
+        <p><%= scene.text %></p>
+        <div class="choices">
+          <% for (let i = 0; i < scene.choices.length; i++) { %>
+            <button class="choice-btn" onclick="chooseOption('<%= scene.scene_id %>', '<%= i %>')"><%= scene.choices[i].text %></button>
+          <% } %>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function chooseOption(sceneId, choiceId) {
+      window.location.href = `/choice/${sceneId}/${choiceId}`;
+    }
+  </script>
+</body>
+</html>
