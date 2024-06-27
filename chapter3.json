@@ -1,0 +1,168 @@
+{
+    "chapter_number": 3,
+    "scenes": [
+      {
+        "scene_id": 20,
+        "text": "Mir ascends the grand staircase, only to be confronted by a group of skeletons practicing a bizarre dance routine. One skeleton trips over, causing a domino effect.",
+        "choices": [
+          {
+            "text": "Join the dance to blend in.",
+            "leads_to": 21
+          },
+          {
+            "text": "Attack the skeletons while they're distracted.",
+            "leads_to": 22
+          },
+          {
+            "text": "Run past the dancing skeletons.",
+            "leads_to": 23
+          }
+        ]
+      },
+      {
+        "scene_id": 21,
+        "text": "Mir joins the dance, mimicking the skeletons' awkward moves. They accept Mir as one of their own, allowing safe passage.",
+        "choices": [
+          {
+            "text": "Continue exploring the upper level.",
+            "leads_to": 24
+          }
+        ]
+      },
+      {
+        "scene_id": 22,
+        "text": "Mir attacks with the nunchaku, breaking the skeletons' bones mid-dance. They crumble to the floor, defeated.",
+        "choices": [
+          {
+            "text": "Search the area for items.",
+            "leads_to": 25
+          },
+          {
+            "text": "Continue exploring the upper level.",
+            "leads_to": 24
+          }
+        ]
+      },
+      {
+        "scene_id": 23,
+        "text": "Mir dashes past the skeletons, but one skeleton throws a bone, tripping Mir. The skeletons surround Mir!",
+        "choices": [
+          {
+            "text": "Fight the skeletons with anderweare.",
+            "leads_to": 26
+          },
+          {
+            "text": "Use the shield to defend.",
+            "leads_to": 27
+          }
+        ]
+      },
+      {
+        "scene_id": 24,
+        "text": "Mir reaches a grand chamber filled with ancient artifacts and a large throne at the center. The room is eerily quiet.",
+        "choices": [
+          {
+            "text": "Investigate the throne.",
+            "leads_to": 28
+          },
+          {
+            "text": "Search for hidden passages.",
+            "leads_to": 29
+          }
+        ]
+      },
+      {
+        "scene_id": 25,
+        "text": "Mir finds a magical sword among the skeletons' remains. This could be very useful!",
+        "choices": [
+          {
+            "text": "Take the sword and explore further.",
+            "leads_to": 24
+          }
+        ]
+      },
+      {
+        "scene_id": 26,
+        "text": "Mir uses anderweare's unique attack, causing the skeletons to laugh themselves apart. Mir escapes their clutches.",
+        "choices": [
+          {
+            "text": "Continue exploring the upper level.",
+            "leads_to": 24
+          }
+        ]
+      },
+      {
+        "scene_id": 27,
+        "text": "The shield deflects the skeletons' attacks, and with a mighty push, Mir scatters their bones across the floor.",
+        "choices": [
+          {
+            "text": "Search the area for items.",
+            "leads_to": 25
+          },
+          {
+            "text": "Continue exploring the upper level.",
+            "leads_to": 24
+          }
+        ]
+      },
+      {
+        "scene_id": 28,
+        "text": "As Mir approaches the throne, a ghostly figure materializes, cracking jokes and riddles.",
+        "choices": [
+          {
+            "text": "Answer the riddles.",
+            "leads_to": 30
+          },
+          {
+            "text": "Challenge the ghost to a duel.",
+            "leads_to": 31
+          }
+        ]
+      },
+      {
+        "scene_id": 29,
+        "text": "Mir discovers a hidden passage behind a tapestry. It leads to a secret chamber filled with treasures.",
+        "choices": [
+          {
+            "text": "Enter the secret chamber.",
+            "leads_to": 32
+          },
+          {
+            "text": "Return to the grand chamber.",
+            "leads_to": 24
+          }
+        ]
+      },
+      {
+        "scene_id": 30,
+        "text": "Mir successfully answers the ghost's riddles. The ghost, amused, grants Mir a powerful artifact before vanishing.",
+        "choices": [
+          {
+            "text": "Take the artifact and explore further.",
+            "leads_to": 24
+          }
+        ]
+      },
+      {
+        "scene_id": 31,
+        "text": "Mir and the ghost engage in a comedic duel, with the ghost using puns as weapons. Mir eventually triumphs, and the ghost disappears, leaving behind a key.",
+        "choices": [
+          {
+            "text": "Take the key and explore further.",
+            "leads_to": 24
+          }
+        ]
+      },
+      {
+        "scene_id": 32,
+        "text": "Mir enters the secret chamber and finds a chest containing a legendary shield. This will greatly aid in the journey ahead.",
+        "choices": [
+          {
+            "text": "Take the shield and return to the grand chamber.",
+            "leads_to": 33
+          }
+        ]
+      }
+    ]
+  }
+  

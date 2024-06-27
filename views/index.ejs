@@ -11,7 +11,7 @@
     <div class="card">
       <h1>Mir's Journey in the Lost City of Mathkor</h1>
       <div class="scene">
-        <p><%= scene.text %></p>
+        <p class="<%= scene.text.includes('laugh') ? 'humor' : '' %>"><%= scene.text %></p>
         <div class="choices">
           <% for (let i = 0; i < scene.choices.length; i++) { %>
             <button class="choice-btn" onclick="chooseOption('<%= scene.scene_id %>', '<%= i %>')"><%= scene.choices[i].text %></button>

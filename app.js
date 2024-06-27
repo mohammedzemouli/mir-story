@@ -9,6 +9,21 @@ const PORT = process.env.PORT || 3000;
 const dataPath = path.join(__dirname, 'data.json');
 const jsonData = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
 
+// Load additional chapter data
+const chapter3Path = path.join(__dirname, 'chapter3.json');
+const chapter3Data = JSON.parse(fs.readFileSync(chapter3Path, 'utf8'));
+
+const chapter4Path = path.join(__dirname, 'chapter4.json');
+const chapter4Data = JSON.parse(fs.readFileSync(chapter4Path, 'utf8'));
+
+const chapter5Path = path.join(__dirname, 'chapter5.json');
+const chapter5Data = JSON.parse(fs.readFileSync(chapter5Path, 'utf8'));
+
+// Merge chapters
+jsonData.chapters.push(chapter3Data);
+jsonData.chapters.push(chapter4Data);
+jsonData.chapters.push(chapter5Data);
+
 // Set EJS as view engine
 app.set('view engine', 'ejs');
 
@@ -29,10 +44,18 @@ app.get('/choice/:sceneId/:choiceId', (req, res) => {
   
   // Find the next scene based on the choice made
   const nextSceneId = currentScene.choices[choiceId].leads_to;
-  const nextScene = findScene(nextSceneId);
   
-  // Render the next scene
-  res.render('index', { scene: nextScene });
+  if (nextSceneId === "victory") {
+    res.redirect('/victory');
+  } else {
+    const nextScene = findScene(nextSceneId);
+    res.render('index', { scene: nextScene });
+  }
+});
+
+// Route for the victory page
+app.get('/victory', (req, res) => {
+  res.render('victory');
 });
 
 // Helper function to find a scene by ID

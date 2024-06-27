@@ -1,0 +1,36 @@
+{
+    "chapter_number": 5,
+    "scenes": [
+      {
+        "scene_id": 49,
+        "text": "Mir arrives back in his hometown, greeted by cheers from the townspeople who have heard of his incredible journey. Among them stands his young son, eyes wide with awe and excitement.",
+        "choices": [
+          {
+            "text": "Approach his son with a smile.",
+            "leads_to": 50
+          }
+        ]
+      },
+      {
+        "scene_id": 50,
+        "text": "Mir kneels down and presents the holy underwear of Mathkor to his son, who gasps in amazement. 'This is for you,' Mir says. 'May it bring you the same courage and strength it brought me.'",
+        "choices": [
+          {
+            "text": "Celebrate the moment with his son.",
+            "leads_to": 51
+          }
+        ]
+      },
+      {
+        "scene_id": 51,
+        "text": "The town celebrates Mir's return, and his son proudly wears the holy underwear as a symbol of bravery. Stories of Mir's adventure are told around campfires, inspiring future generations.",
+        "choices": [
+          {
+            "text": "The End.",
+            "leads_to": "victory"
+          }
+        ]
+      }
+    ]
+  }
+  

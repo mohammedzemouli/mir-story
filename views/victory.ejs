@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Victory</title>
+  <link rel="stylesheet" href="/styles.css">
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    .video-background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      z-index: -1;
+    }
+    .video-foreground {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 100%;
+      height: 100%;
+      transform: translate(-50%, -50%);
+    }
+    .content {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      color: white;
+    }
+    .card {
+      background: rgba(0, 0, 0, 0.5);
+      border-radius: 10px;
+      padding: 20px;
+      margin: 100px auto;
+      width: 80%;
+      max-width: 600px;
+    }
+  </style>
+</head>
+<body>
+  <div class="video-background">
+    <div class="video-foreground">
+      <iframe width="560" height="315" src="https://www.youtube.com/watch?v=vOGhAV-84iI?autoplay=1&mute=1&loop=1&playlist=skeleton-dance-video-id" frameborder="0" allow="autoplay; fullscreen"></iframe>
+    </div>
+  </div>
+  <div class="content">
+    <div class="card">
+      <h1>Victory!</h1>
+      <p>Congratulations! Mir's journey is complete. He has returned home with the holy underwear of Mathkor, inspiring future generations.</p>
+    </div>
+  </div>
+</body>
+</html>

@@ -121,6 +121,137 @@
             ]
           }
         ]
+      },
+      {
+        "chapter_number": 2,
+        "scenes": [
+          {
+            "scene_id": 11,
+            "text": "Mir steps through the gate into a grand hall. The air is filled with an eerie silence. Suddenly, Mir hears a loud crash and sees a skeleton clumsily trip over its own feet. Mir can't help but laugh.",
+            "choices": [
+              {
+                "text": "Help the skeleton up.",
+                "leads_to": 12
+              },
+              {
+                "text": "Ignore the skeleton and move on.",
+                "leads_to": 13
+              },
+              {
+                "text": "Search the area for useful items.",
+                "leads_to": 14
+              }
+            ]
+          },
+          {
+            "scene_id": 12,
+            "text": "Mir helps the skeleton up. The skeleton, surprisingly grateful, gives Mir a key before shuffling away.",
+            "choices": [
+              {
+                "text": "Examine the key.",
+                "leads_to": 15
+              },
+              {
+                "text": "Continue exploring the hall.",
+                "leads_to": 13
+              }
+            ]
+          },
+          {
+            "scene_id": 13,
+            "text": "Mir moves on, leaving the skeleton behind. The hall stretches out with many doors on either side.",
+            "choices": [
+              {
+                "text": "Try opening the nearest door.",
+                "leads_to": 16
+              },
+              {
+                "text": "Walk to the end of the hall.",
+                "leads_to": 17
+              }
+            ]
+          },
+          {
+            "scene_id": 14,
+            "text": "Mir searches the area and finds a key lying among the rubble. This might be useful!",
+            "choices": [
+              {
+                "text": "Examine the key.",
+                "leads_to": 15
+              },
+              {
+                "text": "Continue exploring the hall.",
+                "leads_to": 13
+              }
+            ]
+          },
+          {
+            "scene_id": 15,
+            "text": "The key is old and ornate, with strange symbols etched into it. It must unlock something important.",
+            "choices": [
+              {
+                "text": "Search for a door that matches the key.",
+                "leads_to": 16
+              },
+              {
+                "text": "Keep the key and explore further.",
+                "leads_to": 17
+              }
+            ]
+          },
+          {
+            "scene_id": 16,
+            "text": "Mir tries the key on the nearest door. It fits! The door creaks open, revealing a room filled with ancient treasures and artifacts.",
+            "choices": [
+              {
+                "text": "Enter the room and explore.",
+                "leads_to": 18
+              },
+              {
+                "text": "Close the door and move on.",
+                "leads_to": 17
+              }
+            ]
+          },
+          {
+            "scene_id": 17,
+            "text": "Mir walks to the end of the hall, where a grand staircase leads up to another level.",
+            "choices": [
+              {
+                "text": "Ascend the staircase.",
+                "leads_to": 19
+              },
+              {
+                "text": "Return to explore the hall.",
+                "leads_to": 13
+              }
+            ]
+          },
+          {
+            "scene_id": 18,
+            "text": "Mir steps into the room, marveling at the treasures. Among the artifacts, Mir finds a powerful amulet.",
+            "choices": [
+              {
+                "text": "Take the amulet.",
+                "leads_to": 19
+              },
+              {
+                "text": "Leave the amulet and exit the room.",
+                "leads_to": 17
+              }
+            ]
+          },
+          {
+            "scene_id": 19,
+            "text": "Mir ascends the staircase, the journey through Mathkor becoming ever more mysterious and perilous.",
+            "choices": [
+              {
+                "text": "Prepare for the challenges ahead.",
+                "leads_to": 20
+              }
+            ]
+          }
+        ]
       }
     ]
   }

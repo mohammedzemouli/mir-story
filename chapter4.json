@@ -1,0 +1,210 @@
+{
+    "chapter_number": 4,
+    "scenes": [
+      {
+        "scene_id": 33,
+        "text": "Mir reaches the top of the tower, entering a vast chamber where the air crackles with magical energy. At the center stands the final boss, an ancient mummy lord, wielding the holy underwear taken from a defeated skeleton.",
+        "choices": [
+          {
+            "text": "Challenge the mummy lord to a duel.",
+            "leads_to": 34
+          },
+          {
+            "text": "Try to negotiate with the mummy lord.",
+            "leads_to": 35
+          },
+          {
+            "text": "Look for a way to steal the holy underwear.",
+            "leads_to": 36
+          }
+        ]
+      },
+      {
+        "scene_id": 34,
+        "text": "The mummy lord laughs and brandishes the holy underwear, glowing with a divine light. The battle begins!",
+        "choices": [
+          {
+            "text": "Attack with the shield.",
+            "leads_to": 37
+          },
+          {
+            "text": "Strike with the nunchaku.",
+            "leads_to": 38
+          },
+          {
+            "text": "Use the magical sword.",
+            "leads_to": 39
+          }
+        ]
+      },
+      {
+        "scene_id": 35,
+        "text": "Mir tries to negotiate, but the mummy lord is too enraged to listen. It attacks with the holy underwear's power!",
+        "choices": [
+          {
+            "text": "Defend with the shield.",
+            "leads_to": 37
+          },
+          {
+            "text": "Counterattack with the nunchaku.",
+            "leads_to": 38
+          }
+        ]
+      },
+      {
+        "scene_id": 36,
+        "text": "Mir attempts to sneak around the mummy lord, but it senses the movement and unleashes a powerful blast from the holy underwear.",
+        "choices": [
+          {
+            "text": "Dodge and counter with the shield.",
+            "leads_to": 37
+          },
+          {
+            "text": "Dodge and attack with the nunchaku.",
+            "leads_to": 38
+          }
+        ]
+      },
+      {
+        "scene_id": 37,
+        "text": "The shield absorbs the blast from the holy underwear, reflecting it back at the mummy lord. The mummy is momentarily stunned.",
+        "choices": [
+          {
+            "text": "Seize the moment and attack with the sword.",
+            "leads_to": 39
+          },
+          {
+            "text": "Try to grab the holy underwear.",
+            "leads_to": 40
+          }
+        ]
+      },
+      {
+        "scene_id": 38,
+        "text": "Mir's nunchaku strikes land true, but the mummy lord's power is formidable. The battle rages on, each blow shaking the chamber.",
+        "choices": [
+          {
+            "text": "Continue attacking with the nunchaku.",
+            "leads_to": 41
+          },
+          {
+            "text": "Switch to the magical sword.",
+            "leads_to": 39
+          }
+        ]
+      },
+      {
+        "scene_id": 39,
+        "text": "The magical sword glows with power as Mir strikes. The mummy lord is severely weakened, dropping the holy underwear.",
+        "choices": [
+          {
+            "text": "Pick up the holy underwear and use it.",
+            "leads_to": 42
+          },
+          {
+            "text": "Finish off the mummy lord with the sword.",
+            "leads_to": 43
+          }
+        ]
+      },
+      {
+        "scene_id": 40,
+        "text": "Mir grabs the holy underwear, feeling its divine power course through. The mummy lord shrieks in anger and fear.",
+        "choices": [
+          {
+            "text": "Use the holy underwear to banish the mummy lord.",
+            "leads_to": 44
+          },
+          {
+            "text": "Destroy the holy underwear to weaken the mummy lord.",
+            "leads_to": 45
+          }
+        ]
+      },
+      {
+        "scene_id": 41,
+        "text": "Mir's relentless nunchaku strikes finally overpower the mummy lord. The ancient foe collapses, defeated.",
+        "choices": [
+          {
+            "text": "Take the holy underwear as a trophy.",
+            "leads_to": 46
+          },
+          {
+            "text": "Search the chamber for other treasures.",
+            "leads_to": 47
+          }
+        ]
+      },
+      {
+        "scene_id": 42,
+        "text": "Wielding the holy underwear, Mir channels its divine energy, unleashing a powerful blast that obliterates the mummy lord.",
+        "choices": [
+          {
+            "text": "Revel in victory and explore the chamber.",
+            "leads_to": 47
+          }
+        ]
+      },
+      {
+        "scene_id": 43,
+        "text": "With a final, decisive strike, Mir ends the mummy lord's reign of terror. The chamber falls silent, victory achieved.",
+        "choices": [
+          {
+            "text": "Search the chamber for other treasures.",
+            "leads_to": 47
+          }
+        ]
+      },
+      {
+        "scene_id": 44,
+        "text": "The holy underwear's power banishes the mummy lord to the void, ensuring it will never return.",
+        "choices": [
+          {
+            "text": "Revel in victory and explore the chamber.",
+            "leads_to": 47
+          }
+        ]
+      },
+      {
+        "scene_id": 45,
+        "text": "Mir destroys the holy underwear, stripping the mummy lord of its power. In its weakened state, the mummy lord is easily defeated.",
+        "choices": [
+          {
+            "text": "Celebrate victory and search for treasures.",
+            "leads_to": 47
+          }
+        ]
+      },
+      {
+        "scene_id": 46,
+        "text": "Mir takes the holy underwear as a trophy, feeling a sense of accomplishment. The chamber holds many secrets yet to be discovered.",
+        "choices": [
+          {
+            "text": "Explore the chamber for treasures.",
+            "leads_to": 47
+          }
+        ]
+      },
+      {
+        "scene_id": 47,
+        "text": "Mir explores the chamber, finding ancient treasures and powerful artifacts. The journey through Mathkor has been perilous, but the rewards are immense.",
+        "choices": [
+          {
+            "text": "Return home with the treasures.",
+            "leads_to": 48
+          }
+        ]
+      },
+      {
+        "scene_id": 48,
+        "text": "With the treasures of Mathkor in hand, Mir returns home, celebrated as a hero. The adventures in the lost city will be told for generations.",
+        "choices": [
+          {
+            "text": "The End.",
+            "leads_to":49
+          }
+        ]
+      }
+    ]
+  }
+  
